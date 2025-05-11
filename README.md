@@ -87,7 +87,7 @@ This allowed me to:
 The 3NF model was generated using SQL with window functions and joins from the OLTP source.
 
 ### 📂 Sample Source
-File: sample_data/orders_OLTP_sample.csv
+![Sample OLTP Orders File](./sample_data/orders_OLTP_sample.csv)
 
 ### 🛠 Example: `cities` Table
 ```sql
