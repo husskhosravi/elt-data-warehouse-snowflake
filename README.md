@@ -133,5 +133,8 @@ data_warehouse_project/
 
 ## 🚀 Future Enhancements
 
-* Implement **data quality checks** (null checks, schema validation)
-* Build **Power BI** or **Tableau** dashboards from DW layer
+* Implement **data quality checks** (null filters, type checks, referential integrity validation)
+* Add **dynamic parameterisation** for S3 folder paths and load dates
+* Use **orchestration tools** (e.g., dbt, Airflow, or Snowflake Tasks) to automate pipeline stages
+* Enhance **error handling and logging** during ELT steps
+* Extend with **BI dashboards** using Power BI / Tableau to demonstrate consumption layer utility
