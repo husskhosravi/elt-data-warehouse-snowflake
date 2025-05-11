@@ -51,7 +51,6 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 ![flow_diagram3](https://github.com/user-attachments/assets/0bbb009f-b5f2-4574-8eed-7d40125e7d65)
 
-
 ---
 
 ## 📄 Project Structure
@@ -75,6 +74,35 @@ data_warehouse_project/
 ```
 
 ---
+## 🧱 Why I Started from a 3NF OLTP Model
+
+To simulate a real-world enterprise scenario, I started from a highly normalised **OLTP dataset in 3rd Normal Form (3NF)** — typical of transactional systems.
+
+This allowed me to:
+- ✅ Practise real-world **data modelling**
+- ✅ Transition from **normalised OLTP** → **star schema**
+- ✅ Extract clean, deduplicated dimension entities
+- ✅ Build **referential integrity** from raw rows
+
+The 3NF model was generated using SQL with window functions and joins from the OLTP source.
+
+### 📂 Sample Source
+File: `sample_data/orders_OLTP_sample.csv`
+
+### 🛠 Example: `cities` Table
+```sql
+WITH cte AS (
+  SELECT city, state, region, country,
+         ROW_NUMBER() OVER (PARTITION BY city ORDER BY orders.order_date) AS rn
+  FROM orders
+)
+SELECT ROW_NUMBER() OVER (ORDER BY city) AS id,
+       city, region, country
+INTO cities
+FROM cte
+WHERE rn = 1;
+
+
 
 ## 🌟 Covered in this project
 
