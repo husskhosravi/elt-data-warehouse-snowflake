@@ -132,7 +132,7 @@ data_warehouse_project/
 
 * [Incremental load logic for *customer_dim* (SCD Type 1)](./scripts/SCD-type1.sql)
 
-* [Full SCD Type 2 handling for product_dim, including surrogate key, date versioning](./scripts/SCD-type2.sql)
+* [Full SCD Type 2 handling for *product_dim*, including surrogate key, date versioning](./scripts/SCD-type2.sql)
 
 ---
 
