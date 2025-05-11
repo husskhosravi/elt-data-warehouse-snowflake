@@ -102,7 +102,7 @@ INTO cities
 FROM cte
 WHERE rn = 1;
 ```
-### 🛠 Example: pincode Table
+### 🛠 Example: `pincode` Table
 ```sql
 WITH cte AS (
   SELECT postal_code, cities.id AS city_id,
