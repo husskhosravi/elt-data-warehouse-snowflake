@@ -43,6 +43,7 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 * Applied `INSERT` and `UPDATE` logic to handle incremental loads
 * Developed logic for detecting and processing delta data using timestamp columns like `last_updated_at`
 * Created reusable SQL scripts for staging and DW layer loads to support repeatable execution and scheduling
+* Partitioned S3 by date folder structure (e.g., `/2024/12/20/`) for daily automation
 
 ---
 
