@@ -47,33 +47,6 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 ---
 
-## 🌐 Data Pipeline Flow
-
-![flow_diagram3](https://github.com/user-attachments/assets/0bbb009f-b5f2-4574-8eed-7d40125e7d65)
-
----
-
-## 📄 Project Structure
-
-```
-data_warehouse_project/
-├── README.md
-├── /sql_scripts/
-│   ├── create_tables.sql
-│   ├── load_initial_data.sql
-│   └── incremental_load.sql
-├── /sample_data/
-│   ├── customers.csv
-│   └── products.csv
-│   └── other files
-├── /diagrams/
-│   ├── ERD.png
-│   └── star_schema.png
-│   └── pipeline_flow.png
-
-```
-
----
 ## 🧱 Why I Started from a 3NF OLTP Model
 
 To simulate a real-world enterprise scenario, I started from a highly normalised **OLTP dataset in 3rd Normal Form (3NF)** — typical of transactional systems.
@@ -118,6 +91,35 @@ FROM cte
 WHERE rn = 1;
 ```
 
+---
+
+## 🌐 Data Pipeline Flow
+
+![flow_diagram3](https://github.com/user-attachments/assets/0bbb009f-b5f2-4574-8eed-7d40125e7d65)
+
+---
+
+## 📄 Project Structure
+
+```
+data_warehouse_project/
+├── README.md
+├── /sql_scripts/
+│   ├── create_tables.sql
+│   ├── load_initial_data.sql
+│   └── incremental_load.sql
+├── /sample_data/
+│   ├── customers.csv
+│   └── products.csv
+│   └── other files
+├── /diagrams/
+│   ├── ERD.png
+│   └── star_schema.png
+│   └── pipeline_flow.png
+
+```
+
+---
 
 ## 🌟 Covered in this project
 
