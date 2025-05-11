@@ -57,7 +57,7 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 To simulate a real-world enterprise scenario, I started from a highly normalised **OLTP dataset in 3rd Normal Form (3NF)** — typical of transactional systems.
 
-Online Transaction Processing (OLTP) systems are designed to handle high volumes of short, atomic transactions — such as placing orders, updating customer details, or processing payments. These systems prioritise data integrity, consistency, and write efficiency. To support these needs, OLTP databases are typically structured in Third Normal Form (3NF), a level of database normalisation that reduces redundancy and enforces entity separation through referential integrity. By modelling data in 3NF, we ensure efficient storage, avoid update anomalies, and maintain clean, deduplicated source records — which is critical before transforming the data for analytics in a warehouse.
+OLTP systems handle high volumes of short, atomic transactions like orders or payments, prioritising data integrity and write efficiency. They use Third Normal Form (3NF) to reduce redundancy, enforce entity separation, and prevent update anomalies — ensuring clean, consistent source data for downstream analytics.
 
 This allowed me to:
 - ✅ Practise real-world **data modelling**
@@ -128,11 +128,11 @@ data_warehouse_project/
 ---
 
 ### 📜 Key SQL Scripts
-* [Full pipeline from raw → staging → dw](./scripts/schema-scripts.sql)
+* Full pipeline from raw → staging → dw [Link](./scripts/schema-scripts.sql)
 
-* [Incremental load logic for *customer_dim* (SCD Type 1)](./scripts/SCD-type1.sql)
+* Incremental load logic for *customer_dim* (SCD Type 1)[Link](./scripts/SCD-type1.sql)
 
-* [Full SCD Type 2 handling for *product_dim*, including surrogate key, date versioning](./scripts/SCD-type2.sql)
+* Full SCD Type 2 handling for *product_dim*, including surrogate key, date versioning[Link](./scripts/SCD-type2.sql)
 
 ---
 
@@ -141,7 +141,6 @@ data_warehouse_project/
 * Real-world **Data Engineering pipeline design**
 * **Dimensional modelling** for analytics use cases
 * Strong command of **SQL transformations and SCD implementations**
-* ELT vs ETL trade-offs
 * Handling **incremental data loads** and auditability
 
 ---
