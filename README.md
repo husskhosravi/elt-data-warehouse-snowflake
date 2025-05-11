@@ -48,7 +48,7 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 ## 🌐 Data Pipeline Flow
 
-![flow_diagram3](https://github.com/user-attachments/assets/f9fb6411-fb61-40ab-803d-666c2356f0f8)
+![flow_diagram3](https://github.com/user-attachments/assets/0bbb009f-b5f2-4574-8eed-7d40125e7d65)
 
 
 ---
