@@ -67,6 +67,7 @@ data_warehouse_project/
 │   └── products.csv
 ├── /diagrams/
 │   ├── ERD.png
+│   └── star_schema.png
 │   └── pipeline_flow.png
 
 ```
