@@ -13,7 +13,7 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 * **Cloud Warehouse:** Snowflake
 * **Storage:** AWS S3 (source layer)
 * **Modelling:** Star Schema
-* **Scripting:** SQL (DDL + DML + CTEs + Merge)
+* **Scripting:** SQL (DDL + DML + CTEs)
 * **SCD Management:** Type 1 & Type 2
 * **Transformation Strategy:** ELT (Extract-Load-Transform)
 * **Data Partitioning:** Calendar-based folders in S3
@@ -21,7 +21,7 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 ---
 
-## 🤝 Key Steps
+## 🤝 Key Learnings
 
 ### ✍️ Data Modelling
 
@@ -32,7 +32,7 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 ### 📁 Data Warehouse Design
 
 * Created **raw, staging and consumption layers**
-* Implemented **SCD Type 1** (overwrite) and **Type 2** (historical tracking)
+* Implemented **SCD Type 1** for customers (overwrite) and **SCD Type 2** for products (historical tracking)
 * Generated **surrogate keys** for performance and compatibility
 * Managed **dimension and fact table loads** with correct sequencing
 * Built reusable **calendar dimension** with recursive CTEs
@@ -40,5 +40,51 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 ### ⚙️ ELT & Automation
 
 * Loaded data from S3 to Snowflake using `COPY INTO` statements
-* Applied `INSERT`, `UPDATE`, `MERGE` logic to handle incremental loads
-* Used **last\_updated\_at** timestamp field to drive delta ingestion
+* Applied `INSERT` and `UPDATE` logic to handle incremental loads
+* Developed logic for detecting and processing delta data using timestamp columns like `last_updated_at`
+* Created reusable SQL scripts for staging and DW layer loads to support repeatable execution and scheduling
+
+---
+
+## 🌐 Data Pipeline Flow
+
+![flow_diagram3](https://github.com/user-attachments/assets/f9fb6411-fb61-40ab-803d-666c2356f0f8)
+
+
+---
+
+## 📄 Project Structure
+
+```
+data_warehouse_project/
+├── README.md
+├── /sql_scripts/
+│   ├── create_tables.sql
+│   ├── load_initial_data.sql
+│   └── incremental_load.sql
+├── /data/
+│   ├── customers.csv
+│   └── products.csv
+├── /diagrams/
+│   ├── star_schema.png
+│   └── pipeline_flow.png
+└── /notebooks/
+    └── dw_pipeline_demo.ipynb
+```
+
+---
+
+## 🌟 Covered in this project
+
+* Real-world **Data Engineering pipeline design**
+* **Dimensional modelling** for analytics use cases
+* Strong command of **SQL transformations and SCD implementations**
+* ELT vs ETL trade-offs
+* Handling **incremental data loads** and auditability
+
+---
+
+## 🚀 Future Enhancements
+
+* * Implement **data quality checks** (null checks, schema validation)
+* Build **Power BI** or **Tableau** dashboards from DW layer
