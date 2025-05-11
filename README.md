@@ -87,5 +87,5 @@ data_warehouse_project/
 
 ## 🚀 Future Enhancements
 
-* * Implement **data quality checks** (null checks, schema validation)
+* Implement **data quality checks** (null checks, schema validation)
 * Build **Power BI** or **Tableau** dashboards from DW layer
