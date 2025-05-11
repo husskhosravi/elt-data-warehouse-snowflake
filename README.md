@@ -66,7 +66,7 @@ The dataset used here is a **denormalised transaction file** that mimics an OLTP
 
 ![Sample OLTP Orders File](./sample_data/orders_transaction_snapshot.csv)
 
-I applied **3rd Normal Form (3NF)** transformations on this file using SQL. These transformations decomposed the flat structure into atomic entities (e.g., `cities`, `pincode`, `customers`, etc.) based on the ![ER diagram](./diagrams/Database ER diagram.png).
+I applied **3rd Normal Form (3NF)** transformations on this file using SQL. These transformations decomposed the flat structure into atomic entities (e.g., `cities`, `pincode`, `customers`, etc.) based on the ![ER diagram](./diagrams/Database-ER-diagram.png).
 
 Below is an example of how I extracted the `cities` table from this transaction file:
 
