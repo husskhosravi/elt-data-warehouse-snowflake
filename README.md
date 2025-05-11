@@ -65,6 +65,7 @@ data_warehouse_project/
 ├── /sample_data/
 │   ├── customers.csv
 │   └── products.csv
+│   └── other files
 ├── /diagrams/
 │   ├── ERD.png
 │   └── star_schema.png
