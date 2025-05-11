@@ -51,6 +51,8 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 To simulate a real-world enterprise scenario, I started from a highly normalised **OLTP dataset in 3rd Normal Form (3NF)** — typical of transactional systems.
 
+Online Transaction Processing (OLTP) systems are designed to handle high volumes of short, atomic transactions — such as placing orders, updating customer details, or processing payments. These systems prioritise data integrity, consistency, and write efficiency. To support these needs, OLTP databases are typically structured in Third Normal Form (3NF), a level of database normalisation that reduces redundancy and enforces entity separation through referential integrity. By modelling data in 3NF, we ensure efficient storage, avoid update anomalies, and maintain clean, deduplicated source records — which is critical before transforming the data for analytics in a warehouse.
+
 This allowed me to:
 - ✅ Practise real-world **data modelling**
 - ✅ Transition from **normalised OLTP** → **star schema**
@@ -59,8 +61,8 @@ This allowed me to:
 
 The 3NF model was generated using SQL with window functions and joins from the OLTP source.
 
-### 📂 Sample Source
-![Sample OLTP Orders File](./sample_data/orders_OLTP_sample.csv)
+### 📂 Sample Orders Transaction File
+![Sample OLTP Orders File](./sample_data/orders_transaction_snapshot.csv)
 
 ### 🛠 Example: `cities` Table
 ```sql
@@ -124,7 +126,7 @@ data_warehouse_project/
 ### 📜 Key SQL Scripts
 * ![Full pipeline from raw → staging → dw](./scripts/schema-scripts.sql)
 
-* ![Incremental load logic for `customer_dim` (SCD Type 1)](./scripts/SCD-type1.sqll)
+* ![Incremental load logic for `customer_dim` (SCD Type 1)](./scripts/SCD-type1.sql)
 
 * ![Full SCD Type 2 handling for `product_dim`, including surrogate key, date versioning](./scripts/SCD-type2.sql)
 
