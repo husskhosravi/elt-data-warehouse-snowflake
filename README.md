@@ -8,6 +8,12 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 ---
 
+## 🌐 Data Pipeline Flow
+
+![flow_diagram3](https://github.com/user-attachments/assets/0bbb009f-b5f2-4574-8eed-7d40125e7d65)
+
+---
+
 ## 🔧 Tech Stack & Tools
 
 * **Cloud Warehouse:** Snowflake
@@ -96,12 +102,6 @@ INTO pincode
 FROM cte
 WHERE rn = 1;
 ```
-
----
-
-## 🌐 Data Pipeline Flow
-
-![flow_diagram3](https://github.com/user-attachments/assets/0bbb009f-b5f2-4574-8eed-7d40125e7d65)
 
 ---
 
