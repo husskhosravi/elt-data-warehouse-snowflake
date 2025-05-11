@@ -101,7 +101,22 @@ SELECT ROW_NUMBER() OVER (ORDER BY city) AS id,
 INTO cities
 FROM cte
 WHERE rn = 1;
-
+```
+### 🛠 Example: pincode Table
+```sql
+WITH cte AS (
+  SELECT postal_code, cities.id AS city_id,
+         ROW_NUMBER() OVER (PARTITION BY postal_code ORDER BY postal_code) AS rn
+  FROM orders
+  INNER JOIN cities ON cities.city = orders.city
+  WHERE postal_code IS NOT NULL
+)
+SELECT ROW_NUMBER() OVER (ORDER BY postal_code) AS id,
+       postal_code, city_id
+INTO pincode
+FROM cte
+WHERE rn = 1;
+```
 
 
 ## 🌟 Covered in this project
