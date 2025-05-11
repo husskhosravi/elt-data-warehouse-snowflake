@@ -62,14 +62,13 @@ data_warehouse_project/
 │   ├── create_tables.sql
 │   ├── load_initial_data.sql
 │   └── incremental_load.sql
-├── /data/
+├── /sample_data/
 │   ├── customers.csv
 │   └── products.csv
 ├── /diagrams/
-│   ├── star_schema.png
+│   ├── ERD.png
 │   └── pipeline_flow.png
-└── /notebooks/
-    └── dw_pipeline_demo.ipynb
+
 ```
 
 ---
