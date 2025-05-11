@@ -128,11 +128,11 @@ data_warehouse_project/
 ---
 
 ### 📜 Key SQL Scripts
-* ![Full pipeline from raw → staging → dw](./scripts/schema-scripts.sql)
+*![Full pipeline from raw → staging → dw](./scripts/schema-scripts.sql)
 
-* ![Incremental load logic for `customer_dim` (SCD Type 1)](./scripts/SCD-type1.sql)
+*![Incremental load logic for `customer_dim` (SCD Type 1)](./scripts/SCD-type1.sql)
 
-* ![Full SCD Type 2 handling for `product_dim`, including surrogate key, date versioning](./scripts/SCD-type2.sql)
+*![Full SCD Type 2 handling for `product_dim`, including surrogate key, date versioning](./scripts/SCD-type2.sql)
 
 ---
 
