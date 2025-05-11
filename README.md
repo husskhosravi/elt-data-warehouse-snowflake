@@ -110,14 +110,14 @@ WHERE rn = 1;
 ```
 data_warehouse_project/
 ├── README.md
-├── /sql_scripts/
-│   ├── create_tables.sql
-│   ├── load_initial_data.sql
-│   └── incremental_load.sql
+├── /scripts/
+│   ├── schema-scripts.sql
+│   ├── SCD-type1.sql
+│   └── SCD-type2.sql
 ├── /sample_data/
 │   ├── customers.csv
 │   └── products.csv
-│   └── other files
+│   └── ...
 ├── /diagrams/
 │   ├── ERD.png
 │   └── star_schema.png
