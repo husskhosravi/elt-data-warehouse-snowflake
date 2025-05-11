@@ -1,0 +1,532 @@
+﻿id,city,state,region,country,last_updated_at
+1,Aberdeen,South Dakota,Central,United States,2024-12-13
+2,Abilene,Texas,Central,United States,2024-12-13
+3,Akron,Ohio,East,United States,2024-12-13
+4,Albuquerque,New Mexico,West,United States,2024-12-13
+5,Alexandria,Virginia,South,United States,2024-12-13
+6,Allen,Texas,Central,United States,2024-12-13
+7,Allentown,Pennsylvania,East,United States,2024-12-13
+8,Altoona,Pennsylvania,East,United States,2024-12-13
+9,Amarillo,Texas,Central,United States,2024-12-13
+10,Anaheim,California,West,United States,2024-12-13
+11,Andover,Massachusetts,East,United States,2024-12-13
+12,Ann Arbor,Michigan,Central,United States,2024-12-13
+13,Antioch,California,West,United States,2024-12-13
+14,Apopka,Florida,South,United States,2024-12-13
+15,Apple Valley,California,West,United States,2024-12-13
+16,Appleton,Wisconsin,Central,United States,2024-12-13
+17,Arlington,Virginia,South,United States,2024-12-13
+18,Arlington Heights,Illinois,Central,United States,2024-12-13
+19,Arvada,Colorado,West,United States,2024-12-13
+20,Asheville,North Carolina,South,United States,2024-12-13
+21,Athens,Georgia,South,United States,2024-12-13
+22,Atlanta,Georgia,South,United States,2024-12-13
+23,Atlantic City,New Jersey,East,United States,2024-12-13
+24,Auburn,New York,East,United States,2024-12-13
+25,Aurora,Illinois,Central,United States,2024-12-13
+26,Austin,Texas,Central,United States,2024-12-13
+27,Avondale,Arizona,West,United States,2024-12-13
+28,Bakersfield,California,West,United States,2024-12-13
+29,Baltimore,Maryland,East,United States,2024-12-13
+30,Bangor,Maine,East,United States,2024-12-13
+31,Bartlett,Tennessee,South,United States,2024-12-13
+32,Bayonne,New Jersey,East,United States,2024-12-13
+33,Baytown,Texas,Central,United States,2024-12-13
+34,Beaumont,Texas,Central,United States,2024-12-13
+35,Bedford,Texas,Central,United States,2024-12-13
+36,Belleville,New Jersey,East,United States,2024-12-13
+37,Bellevue,Washington,West,United States,2024-12-13
+38,Bellingham,Washington,West,United States,2024-12-13
+39,Bethlehem,Pennsylvania,East,United States,2024-12-13
+40,Beverly,Massachusetts,East,United States,2024-12-13
+41,Billings,Montana,West,United States,2024-12-13
+42,Bloomington,Illinois,Central,United States,2024-12-13
+43,Boca Raton,Florida,South,United States,2024-12-13
+44,Boise,Idaho,West,United States,2024-12-13
+45,Bolingbrook,Illinois,Central,United States,2024-12-13
+46,Bossier City,Louisiana,South,United States,2024-12-13
+47,Bowling Green,Kentucky,South,United States,2024-12-13
+48,Boynton Beach,Florida,South,United States,2024-12-13
+49,Bozeman,Montana,West,United States,2024-12-13
+50,Brentwood,California,West,United States,2024-12-13
+51,Bridgeton,New Jersey,East,United States,2024-12-13
+52,Bristol,Tennessee,South,United States,2024-12-13
+53,Broken Arrow,Oklahoma,Central,United States,2024-12-13
+54,Broomfield,Colorado,West,United States,2024-12-13
+55,Brownsville,Texas,Central,United States,2024-12-13
+56,Bryan,Texas,Central,United States,2024-12-13
+57,Buffalo,New York,East,United States,2024-12-13
+58,Buffalo Grove,Illinois,Central,United States,2024-12-13
+59,Bullhead City,Arizona,West,United States,2024-12-13
+60,Burbank,California,West,United States,2024-12-13
+61,Burlington,Iowa,Central,United States,2024-12-13
+62,Caldwell,Idaho,West,United States,2024-12-13
+63,Camarillo,California,West,United States,2024-12-13
+64,Cambridge,Massachusetts,East,United States,2024-12-13
+65,Canton,Michigan,Central,United States,2024-12-13
+66,Carlsbad,New Mexico,West,United States,2024-12-13
+67,Carol Stream,Illinois,Central,United States,2024-12-13
+68,Carrollton,Texas,Central,United States,2024-12-13
+69,Cary,North Carolina,South,United States,2024-12-13
+70,Cedar Hill,Texas,Central,United States,2024-12-13
+71,Cedar Rapids,Iowa,Central,United States,2024-12-13
+72,Champaign,Illinois,Central,United States,2024-12-13
+73,Chandler,Arizona,West,United States,2024-12-13
+74,Chapel Hill,North Carolina,South,United States,2024-12-13
+75,Charlotte,North Carolina,South,United States,2024-12-13
+76,Charlottesville,Virginia,South,United States,2024-12-13
+77,Chattanooga,Tennessee,South,United States,2024-12-13
+78,Chesapeake,Virginia,South,United States,2024-12-13
+79,Chester,Pennsylvania,East,United States,2024-12-13
+80,Cheyenne,Wyoming,West,United States,2024-12-13
+81,Chicago,Illinois,Central,United States,2024-12-13
+82,Chico,California,West,United States,2024-12-13
+83,Chula Vista,California,West,United States,2024-12-13
+84,Cincinnati,Ohio,East,United States,2024-12-13
+85,Citrus Heights,California,West,United States,2024-12-13
+86,Clarksville,Tennessee,South,United States,2024-12-13
+87,Cleveland,Ohio,East,United States,2024-12-13
+88,Clifton,New Jersey,East,United States,2024-12-13
+89,Clinton,Maryland,East,United States,2024-12-13
+90,Clovis,New Mexico,West,United States,2024-12-13
+91,Coachella,California,West,United States,2024-12-13
+92,College Station,Texas,Central,United States,2024-12-13
+93,Colorado Springs,Colorado,West,United States,2024-12-13
+94,Columbia,South Carolina,South,United States,2024-12-13
+95,Columbus,Indiana,Central,United States,2024-12-13
+96,Commerce City,Colorado,West,United States,2024-12-13
+97,Concord,New Hampshire,East,United States,2024-12-13
+98,Conroe,Texas,Central,United States,2024-12-13
+99,Conway,Arkansas,South,United States,2024-12-13
+100,Coon Rapids,Minnesota,Central,United States,2024-12-13
+101,Coppell,Texas,Central,United States,2024-12-13
+102,Coral Gables,Florida,South,United States,2024-12-13
+103,Coral Springs,Florida,South,United States,2024-12-13
+104,Corpus Christi,Texas,Central,United States,2024-12-13
+105,Costa Mesa,California,West,United States,2024-12-13
+106,Cottage Grove,Minnesota,Central,United States,2024-12-13
+107,Covington,Washington,West,United States,2024-12-13
+108,Cranston,Rhode Island,East,United States,2024-12-13
+109,Cuyahoga Falls,Ohio,East,United States,2024-12-13
+110,Dallas,Texas,Central,United States,2024-12-13
+111,Danbury,Connecticut,East,United States,2024-12-13
+112,Danville,California,West,United States,2024-12-13
+113,Davis,California,West,United States,2024-12-13
+114,Daytona Beach,Florida,South,United States,2024-12-13
+115,Dearborn,Michigan,Central,United States,2024-12-13
+116,Dearborn Heights,Michigan,Central,United States,2024-12-13
+117,Decatur,Alabama,South,United States,2024-12-13
+118,Deer Park,Texas,Central,United States,2024-12-13
+119,Delray Beach,Florida,South,United States,2024-12-13
+120,Deltona,Florida,South,United States,2024-12-13
+121,Denver,Colorado,West,United States,2024-12-13
+122,Des Moines,Iowa,Central,United States,2024-12-13
+123,Des Plaines,Illinois,Central,United States,2024-12-13
+124,Detroit,Michigan,Central,United States,2024-12-13
+125,Dover,Delaware,East,United States,2024-12-13
+126,Draper,Utah,West,United States,2024-12-13
+127,Dublin,California,West,United States,2024-12-13
+128,Dubuque,Iowa,Central,United States,2024-12-13
+129,Durham,North Carolina,South,United States,2024-12-13
+130,Eagan,Minnesota,Central,United States,2024-12-13
+131,East Orange,New Jersey,East,United States,2024-12-13
+132,East Point,Georgia,South,United States,2024-12-13
+133,Eau Claire,Wisconsin,Central,United States,2024-12-13
+134,Edinburg,Texas,Central,United States,2024-12-13
+135,Edmond,Oklahoma,Central,United States,2024-12-13
+136,Edmonds,Washington,West,United States,2024-12-13
+137,El Cajon,California,West,United States,2024-12-13
+138,El Paso,Texas,Central,United States,2024-12-13
+139,Elkhart,Indiana,Central,United States,2024-12-13
+140,Elmhurst,Illinois,Central,United States,2024-12-13
+141,Elyria,Ohio,East,United States,2024-12-13
+142,Encinitas,California,West,United States,2024-12-13
+143,Englewood,Colorado,West,United States,2024-12-13
+144,Escondido,California,West,United States,2024-12-13
+145,Eugene,Oregon,West,United States,2024-12-13
+146,Evanston,Illinois,Central,United States,2024-12-13
+147,Everett,Washington,West,United States,2024-12-13
+148,Fairfield,California,West,United States,2024-12-13
+149,Fargo,North Dakota,Central,United States,2024-12-13
+150,Farmington,New Mexico,West,United States,2024-12-13
+151,Fayetteville,Arkansas,South,United States,2024-12-13
+152,Florence,Kentucky,South,United States,2024-12-13
+153,Fort Collins,Colorado,West,United States,2024-12-13
+154,Fort Lauderdale,Florida,South,United States,2024-12-13
+155,Fort Worth,Texas,Central,United States,2024-12-13
+156,Frankfort,Illinois,Central,United States,2024-12-13
+157,Franklin,Tennessee,South,United States,2024-12-13
+158,Freeport,Illinois,Central,United States,2024-12-13
+159,Fremont,Nebraska,Central,United States,2024-12-13
+160,Fresno,California,West,United States,2024-12-13
+161,Frisco,Texas,Central,United States,2024-12-13
+162,Gaithersburg,Maryland,East,United States,2024-12-13
+163,Garden City,Kansas,Central,United States,2024-12-13
+164,Garland,Texas,Central,United States,2024-12-13
+165,Gastonia,North Carolina,South,United States,2024-12-13
+166,Georgetown,Kentucky,South,United States,2024-12-13
+167,Gilbert,Arizona,West,United States,2024-12-13
+168,Gladstone,Missouri,Central,United States,2024-12-13
+169,Glendale,Arizona,West,United States,2024-12-13
+170,Glenview,Illinois,Central,United States,2024-12-13
+171,Goldsboro,North Carolina,South,United States,2024-12-13
+172,Grand Island,Nebraska,Central,United States,2024-12-13
+173,Grand Prairie,Texas,Central,United States,2024-12-13
+174,Grand Rapids,Michigan,Central,United States,2024-12-13
+175,Grapevine,Texas,Central,United States,2024-12-13
+176,Great Falls,Montana,West,United States,2024-12-13
+177,Greeley,Colorado,West,United States,2024-12-13
+178,Green Bay,Wisconsin,Central,United States,2024-12-13
+179,Greensboro,North Carolina,South,United States,2024-12-13
+180,Greenville,North Carolina,South,United States,2024-12-13
+181,Greenwood,Indiana,Central,United States,2024-12-13
+182,Gresham,Oregon,West,United States,2024-12-13
+183,Grove City,Ohio,East,United States,2024-12-13
+184,Gulfport,Mississippi,South,United States,2024-12-13
+185,Hackensack,New Jersey,East,United States,2024-12-13
+186,Hagerstown,Maryland,East,United States,2024-12-13
+187,Haltom City,Texas,Central,United States,2024-12-13
+188,Hamilton,Ohio,East,United States,2024-12-13
+189,Hampton,Virginia,South,United States,2024-12-13
+190,Harlingen,Texas,Central,United States,2024-12-13
+191,Harrisonburg,Virginia,South,United States,2024-12-13
+192,Hattiesburg,Mississippi,South,United States,2024-12-13
+193,Helena,Montana,West,United States,2024-12-13
+194,Hempstead,New York,East,United States,2024-12-13
+195,Henderson,Kentucky,South,United States,2024-12-13
+196,Hendersonville,Tennessee,South,United States,2024-12-13
+197,Hesperia,California,West,United States,2024-12-13
+198,Hialeah,Florida,South,United States,2024-12-13
+199,Hickory,North Carolina,South,United States,2024-12-13
+200,Highland Park,Illinois,Central,United States,2024-12-13
+201,Hillsboro,Oregon,West,United States,2024-12-13
+202,Holland,Michigan,Central,United States,2024-12-13
+203,Hollywood,Florida,South,United States,2024-12-13
+204,Holyoke,Massachusetts,East,United States,2024-12-13
+205,Homestead,Florida,South,United States,2024-12-13
+206,Hoover,Alabama,South,United States,2024-12-13
+207,Hot Springs,Arkansas,South,United States,2024-12-13
+208,Houston,Texas,Central,United States,2024-12-13
+209,Huntington Beach,California,West,United States,2024-12-13
+210,Huntsville,Alabama,South,United States,2024-12-13
+211,Independence,Missouri,Central,United States,2024-12-13
+212,Indianapolis,Indiana,Central,United States,2024-12-13
+213,Inglewood,California,West,United States,2024-12-13
+214,Iowa City,Iowa,Central,United States,2024-12-13
+215,Irving,Texas,Central,United States,2024-12-13
+216,Jackson,Tennessee,South,United States,2024-12-13
+217,Jacksonville,Florida,South,United States,2024-12-13
+218,Jamestown,New York,East,United States,2024-12-13
+219,Jefferson City,Missouri,Central,United States,2024-12-13
+220,Johnson City,Tennessee,South,United States,2024-12-13
+221,Jonesboro,Arkansas,South,United States,2024-12-13
+222,Jupiter,Florida,South,United States,2024-12-13
+223,Keller,Texas,Central,United States,2024-12-13
+224,Kenner,Louisiana,South,United States,2024-12-13
+225,Kenosha,Wisconsin,Central,United States,2024-12-13
+226,Kent,Washington,West,United States,2024-12-13
+227,Kirkwood,Missouri,Central,United States,2024-12-13
+228,Kissimmee,Florida,South,United States,2024-12-13
+229,Knoxville,Tennessee,South,United States,2024-12-13
+230,La Crosse,Wisconsin,Central,United States,2024-12-13
+231,La Mesa,California,West,United States,2024-12-13
+232,La Porte,Indiana,Central,United States,2024-12-13
+233,La Quinta,California,West,United States,2024-12-13
+234,Lafayette,Louisiana,South,United States,2024-12-13
+235,Laguna Niguel,California,West,United States,2024-12-13
+236,Lake Charles,Louisiana,South,United States,2024-12-13
+237,Lake Elsinore,California,West,United States,2024-12-13
+238,Lake Forest,California,West,United States,2024-12-13
+239,Lakeland,Florida,South,United States,2024-12-13
+240,Lakeville,Minnesota,Central,United States,2024-12-13
+241,Lakewood,Ohio,East,United States,2024-12-13
+242,Lancaster,Pennsylvania,East,United States,2024-12-13
+243,Lansing,Michigan,Central,United States,2024-12-13
+244,Laredo,Texas,Central,United States,2024-12-13
+245,Las Cruces,New Mexico,West,United States,2024-12-13
+246,Las Vegas,Nevada,West,United States,2024-12-13
+247,Laurel,Maryland,East,United States,2024-12-13
+248,Lawrence,Massachusetts,East,United States,2024-12-13
+249,Lawton,Oklahoma,Central,United States,2024-12-13
+250,Layton,Utah,West,United States,2024-12-13
+251,League City,Texas,Central,United States,2024-12-13
+252,Lebanon,Tennessee,South,United States,2024-12-13
+253,Lehi,Utah,West,United States,2024-12-13
+254,Leominster,Massachusetts,East,United States,2024-12-13
+255,Lewiston,Maine,East,United States,2024-12-13
+256,Lincoln Park,Michigan,Central,United States,2024-12-13
+257,Linden,New Jersey,East,United States,2024-12-13
+258,Lindenhurst,New York,East,United States,2024-12-13
+259,Little Rock,Arkansas,South,United States,2024-12-13
+260,Littleton,Colorado,West,United States,2024-12-13
+261,Lodi,California,West,United States,2024-12-13
+262,Logan,Utah,West,United States,2024-12-13
+263,Long Beach,California,West,United States,2024-12-13
+264,Longmont,Colorado,West,United States,2024-12-13
+265,Longview,Washington,West,United States,2024-12-13
+266,Lorain,Ohio,East,United States,2024-12-13
+267,Los Angeles,California,West,United States,2024-12-13
+268,Louisville,Kentucky,South,United States,2024-12-13
+269,Loveland,Colorado,West,United States,2024-12-13
+270,Lowell,Massachusetts,East,United States,2024-12-13
+271,Lubbock,Texas,Central,United States,2024-12-13
+272,Macon,Georgia,South,United States,2024-12-13
+273,Madison,Wisconsin,Central,United States,2024-12-13
+274,Malden,Massachusetts,East,United States,2024-12-13
+275,Manchester,Connecticut,East,United States,2024-12-13
+276,Manhattan,Kansas,Central,United States,2024-12-13
+277,Mansfield,Texas,Central,United States,2024-12-13
+278,Manteca,California,West,United States,2024-12-13
+279,Maple Grove,Minnesota,Central,United States,2024-12-13
+280,Margate,Florida,South,United States,2024-12-13
+281,Marietta,Georgia,South,United States,2024-12-13
+282,Marion,Ohio,East,United States,2024-12-13
+283,Marlborough,Massachusetts,East,United States,2024-12-13
+284,Marysville,Washington,West,United States,2024-12-13
+285,Mason,Ohio,East,United States,2024-12-13
+286,Mcallen,Texas,Central,United States,2024-12-13
+287,Medford,Oregon,West,United States,2024-12-13
+288,Medina,Ohio,East,United States,2024-12-13
+289,Melbourne,Florida,South,United States,2024-12-13
+290,Memphis,Tennessee,South,United States,2024-12-13
+291,Mentor,Ohio,East,United States,2024-12-13
+292,Meriden,Connecticut,East,United States,2024-12-13
+293,Meridian,Idaho,West,United States,2024-12-13
+294,Mesa,Arizona,West,United States,2024-12-13
+295,Mesquite,Texas,Central,United States,2024-12-13
+296,Miami,Florida,South,United States,2024-12-13
+297,Middletown,Connecticut,East,United States,2024-12-13
+298,Midland,Michigan,Central,United States,2024-12-13
+299,Milford,Connecticut,East,United States,2024-12-13
+300,Milwaukee,Wisconsin,Central,United States,2024-12-13
+301,Minneapolis,Minnesota,Central,United States,2024-12-13
+302,Miramar,Florida,South,United States,2024-12-13
+303,Mishawaka,Indiana,Central,United States,2024-12-13
+304,Mission Viejo,California,West,United States,2024-12-13
+305,Missoula,Montana,West,United States,2024-12-13
+306,Missouri City,Texas,Central,United States,2024-12-13
+307,Mobile,Alabama,South,United States,2024-12-13
+308,Modesto,California,West,United States,2024-12-13
+309,Monroe,North Carolina,South,United States,2024-12-13
+310,Montebello,California,West,United States,2024-12-13
+311,Montgomery,Alabama,South,United States,2024-12-13
+312,Moorhead,Minnesota,Central,United States,2024-12-13
+313,Moreno Valley,California,West,United States,2024-12-13
+314,Morgan Hill,California,West,United States,2024-12-13
+315,Morristown,New Jersey,East,United States,2024-12-13
+316,Mount Pleasant,Michigan,Central,United States,2024-12-13
+317,Mount Vernon,New York,East,United States,2024-12-13
+318,Murfreesboro,Tennessee,South,United States,2024-12-13
+319,Murray,Utah,West,United States,2024-12-13
+320,Murrieta,California,West,United States,2024-12-13
+321,Muskogee,Oklahoma,Central,United States,2024-12-13
+322,Naperville,Illinois,Central,United States,2024-12-13
+323,Nashua,New Hampshire,East,United States,2024-12-13
+324,Nashville,Tennessee,South,United States,2024-12-13
+325,New Albany,Indiana,Central,United States,2024-12-13
+326,New Bedford,Massachusetts,East,United States,2024-12-13
+327,New Brunswick,New Jersey,East,United States,2024-12-13
+328,New Castle,Indiana,Central,United States,2024-12-13
+329,New Rochelle,New York,East,United States,2024-12-13
+330,New York City,New York,East,United States,2024-12-13
+331,Newark,Ohio,East,United States,2024-12-13
+332,Newport News,Virginia,South,United States,2024-12-13
+333,Niagara Falls,New York,East,United States,2024-12-13
+334,Noblesville,Indiana,Central,United States,2024-12-13
+335,Norfolk,Nebraska,Central,United States,2024-12-13
+336,Normal,Illinois,Central,United States,2024-12-13
+337,Norman,Oklahoma,Central,United States,2024-12-13
+338,North Charleston,South Carolina,South,United States,2024-12-13
+339,North Las Vegas,Nevada,West,United States,2024-12-13
+340,North Miami,Florida,South,United States,2024-12-13
+341,Norwich,Connecticut,East,United States,2024-12-13
+342,Oak Park,Illinois,Central,United States,2024-12-13
+343,Oakland,California,West,United States,2024-12-13
+344,Oceanside,New York,East,United States,2024-12-13
+345,Odessa,Texas,Central,United States,2024-12-13
+346,Oklahoma City,Oklahoma,Central,United States,2024-12-13
+347,Olathe,Kansas,Central,United States,2024-12-13
+348,Olympia,Washington,West,United States,2024-12-13
+349,Omaha,Nebraska,Central,United States,2024-12-13
+350,Ontario,California,West,United States,2024-12-13
+351,Orange,New Jersey,East,United States,2024-12-13
+352,Orem,Utah,West,United States,2024-12-13
+353,Orland Park,Illinois,Central,United States,2024-12-13
+354,Orlando,Florida,South,United States,2024-12-13
+355,Ormond Beach,Florida,South,United States,2024-12-13
+356,Oswego,Illinois,Central,United States,2024-12-13
+357,Overland Park,Kansas,Central,United States,2024-12-13
+358,Owensboro,Kentucky,South,United States,2024-12-13
+359,Oxnard,California,West,United States,2024-12-13
+360,Palatine,Illinois,Central,United States,2024-12-13
+361,Palm Coast,Florida,South,United States,2024-12-13
+362,Park Ridge,Illinois,Central,United States,2024-12-13
+363,Parker,Colorado,West,United States,2024-12-13
+364,Parma,Ohio,East,United States,2024-12-13
+365,Pasadena,California,West,United States,2024-12-13
+366,Pasco,Washington,West,United States,2024-12-13
+367,Passaic,New Jersey,East,United States,2024-12-13
+368,Paterson,New Jersey,East,United States,2024-12-13
+369,Pearland,Texas,Central,United States,2024-12-13
+370,Pembroke Pines,Florida,South,United States,2024-12-13
+371,Pensacola,Florida,South,United States,2024-12-13
+372,Peoria,Illinois,Central,United States,2024-12-13
+373,Perth Amboy,New Jersey,East,United States,2024-12-13
+374,Pharr,Texas,Central,United States,2024-12-13
+375,Philadelphia,Pennsylvania,East,United States,2024-12-13
+376,Phoenix,Arizona,West,United States,2024-12-13
+377,Pico Rivera,California,West,United States,2024-12-13
+378,Pine Bluff,Arkansas,South,United States,2024-12-13
+379,Plainfield,New Jersey,East,United States,2024-12-13
+380,Plano,Texas,Central,United States,2024-12-13
+381,Plantation,Florida,South,United States,2024-12-13
+382,Pleasant Grove,Utah,West,United States,2024-12-13
+383,Pocatello,Idaho,West,United States,2024-12-13
+384,Pomona,California,West,United States,2024-12-13
+385,Pompano Beach,Florida,South,United States,2024-12-13
+386,Port Arthur,Texas,Central,United States,2024-12-13
+387,Port Orange,Florida,South,United States,2024-12-13
+388,Port Saint Lucie,Florida,South,United States,2024-12-13
+389,Portage,Indiana,Central,United States,2024-12-13
+390,Portland,Oregon,West,United States,2024-12-13
+391,Providence,Rhode Island,East,United States,2024-12-13
+392,Provo,Utah,West,United States,2024-12-13
+393,Pueblo,Colorado,West,United States,2024-12-13
+394,Quincy,Illinois,Central,United States,2024-12-13
+395,Raleigh,North Carolina,South,United States,2024-12-13
+396,Rancho Cucamonga,California,West,United States,2024-12-13
+397,Rapid City,South Dakota,Central,United States,2024-12-13
+398,Reading,Pennsylvania,East,United States,2024-12-13
+399,Redding,California,West,United States,2024-12-13
+400,Redlands,California,West,United States,2024-12-13
+401,Redmond,Oregon,West,United States,2024-12-13
+402,Redondo Beach,California,West,United States,2024-12-13
+403,Redwood City,California,West,United States,2024-12-13
+404,Reno,Nevada,West,United States,2024-12-13
+405,Renton,Washington,West,United States,2024-12-13
+406,Revere,Massachusetts,East,United States,2024-12-13
+407,Richardson,Texas,Central,United States,2024-12-13
+408,Richmond,Kentucky,South,United States,2024-12-13
+409,Rio Rancho,New Mexico,West,United States,2024-12-13
+410,Riverside,California,West,United States,2024-12-13
+411,Rochester,New York,East,United States,2024-12-13
+412,Rochester Hills,Michigan,Central,United States,2024-12-13
+413,Rock Hill,South Carolina,South,United States,2024-12-13
+414,Rockford,Illinois,Central,United States,2024-12-13
+415,Rockville,Maryland,East,United States,2024-12-13
+416,Rogers,Arkansas,South,United States,2024-12-13
+417,Rome,New York,East,United States,2024-12-13
+418,Romeoville,Illinois,Central,United States,2024-12-13
+419,Roseville,Michigan,Central,United States,2024-12-13
+420,Roswell,Georgia,South,United States,2024-12-13
+421,Round Rock,Texas,Central,United States,2024-12-13
+422,Royal Oak,Michigan,Central,United States,2024-12-13
+423,Sacramento,California,West,United States,2024-12-13
+424,Saginaw,Michigan,Central,United States,2024-12-13
+425,Saint Charles,Missouri,Central,United States,2024-12-13
+426,Saint Cloud,Minnesota,Central,United States,2024-12-13
+427,Saint Louis,Missouri,Central,United States,2024-12-13
+428,Saint Paul,Minnesota,Central,United States,2024-12-13
+429,Saint Peters,Missouri,Central,United States,2024-12-13
+430,Saint Petersburg,Florida,South,United States,2024-12-13
+431,Salem,Virginia,South,United States,2024-12-13
+432,Salinas,California,West,United States,2024-12-13
+433,Salt Lake City,Utah,West,United States,2024-12-13
+434,San Angelo,Texas,Central,United States,2024-12-13
+435,San Antonio,Texas,Central,United States,2024-12-13
+436,San Bernardino,California,West,United States,2024-12-13
+437,San Clemente,California,West,United States,2024-12-13
+438,San Diego,California,West,United States,2024-12-13
+439,San Francisco,California,West,United States,2024-12-13
+440,San Gabriel,California,West,United States,2024-12-13
+441,San Jose,California,West,United States,2024-12-13
+442,San Luis Obispo,California,West,United States,2024-12-13
+443,San Marcos,Texas,Central,United States,2024-12-13
+444,San Mateo,California,West,United States,2024-12-13
+445,Sandy Springs,Georgia,South,United States,2024-12-13
+446,Sanford,Florida,South,United States,2024-12-13
+447,Santa Ana,California,West,United States,2024-12-13
+448,Santa Barbara,California,West,United States,2024-12-13
+449,Santa Clara,California,West,United States,2024-12-13
+450,Santa Fe,New Mexico,West,United States,2024-12-13
+451,Santa Maria,California,West,United States,2024-12-13
+452,Scottsdale,Arizona,West,United States,2024-12-13
+453,Seattle,Washington,West,United States,2024-12-13
+454,Sheboygan,Wisconsin,Central,United States,2024-12-13
+455,Shelton,Connecticut,East,United States,2024-12-13
+456,Sierra Vista,Arizona,West,United States,2024-12-13
+457,Sioux Falls,South Dakota,Central,United States,2024-12-13
+458,Skokie,Illinois,Central,United States,2024-12-13
+459,Smyrna,Georgia,South,United States,2024-12-13
+460,South Bend,Indiana,Central,United States,2024-12-13
+461,Southaven,Mississippi,South,United States,2024-12-13
+462,Sparks,Nevada,West,United States,2024-12-13
+463,Spokane,Washington,West,United States,2024-12-13
+464,Springdale,Arkansas,South,United States,2024-12-13
+465,Springfield,Virginia,South,United States,2024-12-13
+466,Sterling Heights,Michigan,Central,United States,2024-12-13
+467,Stockton,California,West,United States,2024-12-13
+468,Suffolk,Virginia,South,United States,2024-12-13
+469,Summerville,South Carolina,South,United States,2024-12-13
+470,Sunnyvale,California,West,United States,2024-12-13
+471,Superior,Wisconsin,Central,United States,2024-12-13
+472,Tallahassee,Florida,South,United States,2024-12-13
+473,Tamarac,Florida,South,United States,2024-12-13
+474,Tampa,Florida,South,United States,2024-12-13
+475,Taylor,Michigan,Central,United States,2024-12-13
+476,Temecula,California,West,United States,2024-12-13
+477,Tempe,Arizona,West,United States,2024-12-13
+478,Texarkana,Arkansas,South,United States,2024-12-13
+479,Texas City,Texas,Central,United States,2024-12-13
+480,The Colony,Texas,Central,United States,2024-12-13
+481,Thomasville,North Carolina,South,United States,2024-12-13
+482,Thornton,Colorado,West,United States,2024-12-13
+483,Thousand Oaks,California,West,United States,2024-12-13
+484,Tigard,Oregon,West,United States,2024-12-13
+485,Tinley Park,Illinois,Central,United States,2024-12-13
+486,Toledo,Ohio,East,United States,2024-12-13
+487,Torrance,California,West,United States,2024-12-13
+488,Trenton,Michigan,Central,United States,2024-12-13
+489,Troy,New York,East,United States,2024-12-13
+490,Tucson,Arizona,West,United States,2024-12-13
+491,Tulsa,Oklahoma,Central,United States,2024-12-13
+492,Tuscaloosa,Alabama,South,United States,2024-12-13
+493,Twin Falls,Idaho,West,United States,2024-12-13
+494,Tyler,Texas,Central,United States,2024-12-13
+495,Urbandale,Iowa,Central,United States,2024-12-13
+496,Utica,New York,East,United States,2024-12-13
+497,Vacaville,California,West,United States,2024-12-13
+498,Vallejo,California,West,United States,2024-12-13
+499,Vancouver,Washington,West,United States,2024-12-13
+500,Vineland,New Jersey,East,United States,2024-12-13
+501,Virginia Beach,Virginia,South,United States,2024-12-13
+502,Visalia,California,West,United States,2024-12-13
+503,Waco,Texas,Central,United States,2024-12-13
+504,Warner Robins,Georgia,South,United States,2024-12-13
+505,Warwick,Rhode Island,East,United States,2024-12-13
+506,Washington,District of Columbia,East,United States,2024-12-13
+507,Waterbury,Connecticut,East,United States,2024-12-13
+508,Waterloo,Iowa,Central,United States,2024-12-13
+509,Watertown,New York,East,United States,2024-12-13
+510,Waukesha,Wisconsin,Central,United States,2024-12-13
+511,Wausau,Wisconsin,Central,United States,2024-12-13
+512,Waynesboro,Virginia,South,United States,2024-12-13
+513,West Allis,Wisconsin,Central,United States,2024-12-13
+514,West Jordan,Utah,West,United States,2024-12-13
+515,West Palm Beach,Florida,South,United States,2024-12-13
+516,Westfield,New Jersey,East,United States,2024-12-13
+517,Westland,Michigan,Central,United States,2024-12-13
+518,Westminster,California,West,United States,2024-12-13
+519,Wheeling,West Virginia,East,United States,2024-12-13
+520,Whittier,California,West,United States,2024-12-13
+521,Wichita,Kansas,Central,United States,2024-12-13
+522,Wilmington,North Carolina,South,United States,2024-12-13
+523,Wilson,North Carolina,South,United States,2024-12-13
+524,Woodbury,Minnesota,Central,United States,2024-12-13
+525,Woodland,California,West,United States,2024-12-13
+526,Woodstock,Illinois,Central,United States,2024-12-13
+527,Woonsocket,Rhode Island,East,United States,2024-12-13
+528,Yonkers,New York,East,United States,2024-12-13
+529,York,Pennsylvania,East,United States,2024-12-13
+530,Yucaipa,California,West,United States,2024-12-13
+531,Yuma,Arizona,West,United States,2024-12-13
