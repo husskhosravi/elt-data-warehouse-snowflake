@@ -55,9 +55,9 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 ## 🧱 Why I Started from a 3NF OLTP Model
 
-To simulate a real-world enterprise scenario, I started from a highly normalised **OLTP dataset in 3rd Normal Form (3NF)** — typical of transactional systems.
+To simulate a real-world enterprise scenario, I started from a highly normalised **OLTP dataset in 3rd Normal Form (3NF)** which is typical of transactional systems.
 
-OLTP systems handle high volumes of short, atomic transactions like orders or payments, prioritising data integrity and write efficiency. They use Third Normal Form (3NF) to reduce redundancy, enforce entity separation, and prevent update anomalies — ensuring clean, consistent source data for downstream analytics.
+OLTP systems handle high volumes of short, atomic transactions like orders or payments, prioritising data integrity and write efficiency. They use Third Normal Form (3NF) to reduce redundancy, enforce entity separation, and prevent update anomalies, ensuring clean, consistent source data for downstream analytics.
 
 This allowed me to:
 - ✅ Practise real-world **data modelling**
