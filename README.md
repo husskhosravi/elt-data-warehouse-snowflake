@@ -14,6 +14,32 @@ The project includes creating a raw data layer, staging layer, and dimensional d
 
 ---
 
+### 🔁 Pipeline Sequence Breakdown
+
+1. **📦 OLTP (Flat File) → 3NF Normalisation**
+
+   * Input: `orders_transaction_snapshot.csv`
+   * Goal: Break denormalised data into normalised tables (`cities`, `pincode`, `customers`, `products`, etc.)
+   * Output: 3NF-formatted SQL tables (simulate OLTP)
+
+2. **☁️ COPY INTO Snowflake from S3**
+
+   * Upload the 3NF `.csv` files to S3
+   * Load into **raw schema** in Snowflake using `COPY INTO`
+
+3. **🔄 Staging Layer Transformation**
+
+   * Join 3NF entities to create **flattened, enriched views**
+   * Example: `stg_customers`, `stg_products` from multiple raw tables
+
+4. **🌟 Star Schema (Dimensional Model)**
+
+   * Create **dimension tables** (e.g. `customer_dim`, `product_dim`) and **fact tables**
+   * Apply SCD logic (Type 1 or 2), surrogate keys, date ranges
+   * Structure aligned with **analytics/OLAP consumption**
+
+---
+
 ## 🔧 Tech Stack & Tools
 
 * **Cloud Warehouse:** Snowflake
