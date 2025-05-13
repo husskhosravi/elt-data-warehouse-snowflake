@@ -133,9 +133,6 @@ WHERE rn = 1;
 After loading 3NF-normalised tables into Snowflake’s `raw` schema, I created staging views to flatten and enrich the data before loading into the data warehouse. Below is the logic used to build the `stg_customers` table by joining `customers`, `pincode`, and `cities`.
 
 ```sql
--- ======================================================
--- STAGING SCHEMA: CREATE CUSTOMER DIMENSION (JOINING 3NF TABLES)
--- ======================================================
 CREATE OR REPLACE TABLE stg.stg_customers AS
 SELECT
     cus.id AS customer_id,
@@ -151,6 +148,25 @@ FROM raw.pincode p
 INNER JOIN raw.cities c ON p.city_id = c.id
 INNER JOIN raw.customers cus ON cus.pincode_id = p.id;
 ```
+This staging table is then used to populate the final dw.customer_dim, applying SCD Type 1 logic.
+
+---
+
+### 📜 Key SQL Scripts
+* Full pipeline from raw → staging → dw  [Link](./scripts/schema-scripts.sql)
+
+* Incremental load logic for *customer_dim* (SCD Type 1)  [Link](./scripts/SCD-type1.sql)
+
+* Full SCD Type 2 handling for *product_dim*, including surrogate key, date versioning  [Link](./scripts/SCD-type2.sql)
+
+---
+
+## 🌟 Covered in this project
+
+* Real-world **Data Engineering pipeline design**
+* **Dimensional modelling** for analytics use cases
+* Strong command of **SQL transformations and SCD implementations**
+* Handling **incremental data loads** and auditability
 
 ---
 
@@ -173,24 +189,6 @@ data_warehouse_project/
 │   └── pipeline_flow.png
 
 ```
-
----
-
-### 📜 Key SQL Scripts
-* Full pipeline from raw → staging → dw  [Link](./scripts/schema-scripts.sql)
-
-* Incremental load logic for *customer_dim* (SCD Type 1)  [Link](./scripts/SCD-type1.sql)
-
-* Full SCD Type 2 handling for *product_dim*, including surrogate key, date versioning  [Link](./scripts/SCD-type2.sql)
-
----
-
-## 🌟 Covered in this project
-
-* Real-world **Data Engineering pipeline design**
-* **Dimensional modelling** for analytics use cases
-* Strong command of **SQL transformations and SCD implementations**
-* Handling **incremental data loads** and auditability
 
 ---
 
