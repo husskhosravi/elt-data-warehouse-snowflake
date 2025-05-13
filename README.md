@@ -128,6 +128,29 @@ INTO pincode
 FROM cte
 WHERE rn = 1;
 ```
+### 🧱 Example: Customer Dimension Creation
+
+After loading 3NF-normalised tables into Snowflake’s `raw` schema, I created staging views to flatten and enrich the data before loading into the data warehouse. Below is the logic used to build the `stg_customers` table by joining `customers`, `pincode`, and `cities`.
+
+```sql
+-- ======================================================
+-- STAGING SCHEMA: CREATE CUSTOMER DIMENSION (JOINING 3NF TABLES)
+-- ======================================================
+CREATE OR REPLACE TABLE stg.stg_customers AS
+SELECT
+    cus.id AS customer_id,
+    cus.customer_name,
+    cus.username,
+    cus.segment,
+    p.postal_code,
+    c.city,
+    c.state,
+    c.region,
+    c.country
+FROM raw.pincode p
+INNER JOIN raw.cities c ON p.city_id = c.id
+INNER JOIN raw.customers cus ON cus.pincode_id = p.id;
+```
 
 ---
 
