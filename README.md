@@ -173,7 +173,7 @@ This staging table is then used to populate the final dw.customer_dim, applying 
 ## 📄 Project Structure
 
 ```
-data_warehouse_project/
+elt-data-warehouse-snowflake/
 ├── README.md
 ├── /scripts/
 │   ├── schema-scripts.sql
